@@ -3,10 +3,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 from docx import Document
-import matplotlib.pyplot as plt
 import pymongo
 import mysql.connector
-from mysql.connector import Error
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.types import Integer, VARCHAR
 import plotly.express as px
